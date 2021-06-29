@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat); 
+html, body {
+    overflow: hidden;
+    background:#333;
+    color: #fff;
+    font-size: 45.5%;
+}
+
+p{
+    margin-top: 10rem;
+    color: #ccc;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+
+.navbar{
+    font-size: 3rem;
+}
+.navbar-nav li{
+  margin-left:3rem;
+  text-align: center;
+}
+
+span{
+    font-size: 4rem;
+}
+
+.logo{
+    font-size: 6rem;
+}
+
+.title{
+    margin-top: 9rem;
+    color: #fff;
+}
+.content-subtitle{
+        font-size: 4rem
+    }
+
+.viewport-max{
+    min-height: 100vh;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  will-change: transform;
+  backface-visibility: hidden;
+  height: 130vh;
+  position: fixed;
+  width: 100%;
+  transform: translateY(30vh);
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1); }
+  .background:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); }
+  .background:first-child {
+    background-image: url(../img/3dmodels/pic1.jpg);
+    transform: translateY(-15vh); }
+    .background:first-child .content-wrapper {
+      transform: translateY(15vh); }
+  .background:nth-child(2) {
+    background-image: url(../img/3dmodels/pic2.jpg); }
+  .background:nth-child(3) {
+    background-image: url(../img/3dmodels/pic3.jpeg); }
+  .background:nth-child(4) {
+    background-image: url(../img/3dmodels/pic4.jpeg); }
+  .background:nth-child(5) {
+    background-image: url(../img/3dmodels/pic5.jpg); }
+
+/* Set stacking context of slides */
+.background:nth-child(1) {
+  z-index: 5; }
+
+.background:nth-child(2) {
+  z-index: 4; }
+
+.background:nth-child(3) {
+  z-index: 3; }
+
+.background:nth-child(4) {
+  z-index: 2; }
+
+.background:nth-child(5) {
+  z-index: 1; }
+
+.content-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column nowrap;
+  color: #fff;
+  font-family: Montserrat;
+  text-transform: capitalize;
+  transform: translateY(40vh);
+  will-change: transform;
+  backface-visibility: hidden;
+  transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1); }
+
+.content-title {
+  font-size: 7vh;
+  line-height: 1.0; }
+
+.content-subtitle{
+    margin-top: 1rem
+}
+
+.name, .email{
+    font-family: Montserrat;
+    margin-bottom: -5rem;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.background.up-scroll {
+  transform: translate3d(0, -15vh, 0); }
+  .background.up-scroll .content-wrapper {
+    transform: translateY(15vh); }
+  .background.up-scroll + .background {
+    transform: translate3d(0, 30vh, 0); }
+    .background.up-scroll + .background .content-wrapper {
+      transform: translateY(30vh); }
+
+.background.down-scroll {
+  transform: translate3d(0, -130vh, 0); }
+  .background.down-scroll .content-wrapper {
+    transform: translateY(40vh); }
+  .background.down-scroll + .background:not(.down-scroll) {
+    transform: translate3d(0, -15vh, 0); }
+    .background.down-scroll + .background:not(.down-scroll) .content-wrapper {
+      transform: translateY(15vh); }
+
+
+ 
+@media (max-width: 1199px) {
+    
+     .content-title{
+         font-size: 7rem;
+     }
+}
+
+ @media (max-width: 1199px) {
+    
+     .navbar-brand{
+         font-size: 2.5rem;
+         position: absolute;
+         top: 0px;
+         left: 30%;
+     }
+}
+

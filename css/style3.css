@@ -1,0 +1,37 @@
+ 
+html, body {
+    background:#333;
+    font-size: 45.5%;
+}
+
+.display-3{
+    margin-top: 20rem;
+    font-size: 5rem;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+
+.navbar{
+    height: 10rem;
+    font-size: 2.5rem;
+}
+.navbar-nav > li{
+  margin-left:3rem;
+}
+
+span{
+    font-size: 4rem;
+}
+
+.logo{
+    font-size: 6rem;
+}
+
+
+.embed-responsive{
+    margin-top: 10rem;
+}
+
+ 
