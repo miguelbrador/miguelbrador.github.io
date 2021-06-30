@@ -79,6 +79,12 @@ p{
     color: #ccc;
 }
 
+.s0{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../img/3dmodels/pic0.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 .s1{
     background: url("../img/3dmodels/pic1.jpg");
@@ -123,7 +129,19 @@ p{
     background-position: center;
 }
 
+.arrow{
+    width: 10rem;
+    display: block;
+    margin: auto;
+    margin-top: 10rem;
+}
 
+.p0{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../img/3denvironments/project0.jpg");
+    background-size: cover;
+    background-position: center;
+}
 .p1{
     background: url("../img/3denvironments/project1.jpg");
     background-size: cover;
