@@ -136,42 +136,105 @@ p{
     margin-top: 10rem;
 }
 
-.p0{
+.s9{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("../img/3denvironments/project0.jpg");
     background-size: cover;
     background-position: center;
 }
-.p1{
+.s10{
     background: url("../img/3denvironments/project1.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.p2{
+.s11{
     background: url("../img/3denvironments/project2.jpg");
     background-size: cover;
     background-position: center;
 }
-.p3{
+.s12{
     background: url("../img/3denvironments/project3.jpg");
     background-size: cover;
     background-position: center;
 }
-.p4{
+.s13{
     background: url("../img/3denvironments/project4.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.p5{
+.s14{
     background: url("../img/3denvironments/project5.jpeg");
     background-size: cover;
     background-position: center;
 }
-.p6{
+.s15{
 
 }
+
+.a0{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../img/Art/a0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.a1{
+    background: url("../img/Art/a1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.a2{
+    background: url("../img/Art/a2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a3{
+    background: url("../img/Art/a3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a4{
+    background: url("../img/Art/a4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.a5{
+    background: url("../img/Art/a5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a6{
+    background: url("../img/Art/a6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a7{
+    background: url("../img/Art/a7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a8{
+    background: url("../img/Art/a8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a9{
+    background: url("../img/Art/a9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a10{
+    background: url("../img/Art/a10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.a11{
+}
+
 .name, .email{
     font-family: Montserrat;
     margin-bottom: -5rem;
