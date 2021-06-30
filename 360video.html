@@ -1,35 +1,90 @@
-class Student{
-    constructor(name, email, community){
-        this.name = name;
-        this.email = email;
-        this.community = community;
-    }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+    
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Miguel Brador Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-lg navbar-inverse navbar-expand-lg bg-inverse fixed-top">
+        <button class="navbar-toggler">
+            <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarCollapse"></span>
+        </button>
+        <a class="navbar-brand" href="#"><strong>MIGUEL BRADOR</strong><small> STUDIO</small><i class="fa fa-simplybuilt logo px-3"></i></a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/3dmodels.html">3D Models</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/3denvironments.html">3D Environments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/portfoliopieces.html">Portfolio Pieces</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/360video.html">360 Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/virtualreality.html">Virtual Reality</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    
+    <section id="360video-section">
+            <div class="py-20">
+                <div class="row viewport-max dflex justify-content-center">
+                   <div class="col-10 mx-auto text-center">
+                    <h1 class="content-title text-center display-1 push-top">360 Videos </h1>
+                    <p class="display-4 mx-auto w-60 pb-5">Experimenting with monoscopic 360 video using 6 gopro black cameras, not exactly VR but close enough. I recorded different areas of my neighborhood and enjoyed every bit of it.</p>
+                   </div>
+               
 
-class Bootcamp{
-    constructor(name, level, students = []){
-        this.name = name;
-        this.level = level;
-        this.students = students;
-    }
-    registerStudent(student) {        
-        if (this.students.find(s => s.email === student.email)) {
-            console.log(`The student ${student.email} is already registered!`);
-        } else {
-            this.students.push(student);
-            console.log(`Registering ${student.email} to the bootcamp ${this.name}.`);
-        } 
-        return this.students;
-    }
-}
+    
+    <!-- 360 videos -->
 
-const webDev = new Bootcamp("Web Dev1", "Beginner");
-console.log(webDev);
 
-const alice = new Student("alice", "ali@aol.com", "NYC");
-const manuel = new Student("manuel", "mani@aol.com", "Bronx");
-const john = new Student("john", "john@aol.com", "Queens");
-
-console.log(manuel);
-webDev.registerStudent(john);
-webDev.registerStudent( );
+                   <div class="height-space text-center p-5">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/TZA_sfimKds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <div class="height-space p-5">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/Dooo-FjFuzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <div class="height-space p-5">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/6OujkTNre1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <div class="height-space p-5">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/LMb-lbT1vE4" title="YouTube video player" frameborder="0" allow="accelerometer;                    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                </div>
+        </div>
+    </section>
+    
+    
+    
+    <footer>
+    <div class="container text-center height-space">
+        <div class="display-4"><strong>&copy;MIGUEL BRADOR</strong><small> STUDIO</small><i class="fa fa-simplybuilt logo px-3"></i></div>
+        <p class="name">Miguel Brador 2021</p>
+        <p class="email">sirlordmike@juno.com</p>
+    </div>
+</footer>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tether.min.js"></script>
+    <script  src="js/index1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+    
+</body>
+</html>

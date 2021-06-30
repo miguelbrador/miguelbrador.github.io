@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat); 
 html, body {
-    scroll-behavior: smooth;
     background:#333;
     color: #fff;
     font-size: 45.5%;
+
 }
 
 .navbar-brand{
@@ -28,20 +28,11 @@ span{
     font-size: 6rem;
 }
 
-.title{
-    margin-top: 9rem;
-    color: #fff;
-}
-.content-subtitle{
-        font-size: 4rem
-    }
+
 .viewport-max{
     min-height: 100vh;
 }
 
-#down-one{
-    height: 600px;
-}
 
 #home-section{
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url("../img/3dmodels/home-pic.jpg");
@@ -50,9 +41,7 @@ span{
     background-size: cover;
     font-family: Montserrat;
     }
-.content-title {
-  font-size: 7vh;
-  line-height: 1.0; }
+
 .navbar-expand{
     background: #333;
 }
@@ -64,6 +53,12 @@ span{
 }
 
 #portfolio-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../img/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#360video-section{
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../img/background2.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -84,10 +79,96 @@ p{
     color: #ccc;
 }
 
+
+.s1{
+    background: url("../img/3dmodels/pic1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.s2{
+    background: url("../img/3dmodels/pic2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.s3{
+    background: url("../img/3dmodels/pic3.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.s4{
+    background: url("../img/3dmodels/pic4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.s5{
+    background: url("../img/3dmodels/pic5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.s6{
+    background: url("../img/3dmodels/pic6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.s7{
+    background: url("../img/3dmodels/pic7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.s8{
+    background: url("../img/3dmodels/pic8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.p1{
+    background: url("../img/3denvironments/project1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.p2{
+    background: url("../img/3denvironments/project2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.p3{
+    background: url("../img/3denvironments/project3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.p4{
+    background: url("../img/3denvironments/project4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.p5{
+    background: url("../img/3denvironments/project5.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.p6{
+
+}
 .name, .email{
     font-family: Montserrat;
     margin-bottom: -5rem;
     margin-top: 5rem;
+}
+
+.videos{
+    margin-top: -60px;
+    
+}
+.push-top{
+    margin-top: 20rem;
+}
+.align-items{
+    margin: auto;
 }
 
  @media (max-width: 1199px) {
