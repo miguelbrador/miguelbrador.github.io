@@ -174,8 +174,8 @@ p{
 }
 
 .a0{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../img/Art/a1.jpg");
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../img/Art/a0.jpg");
     background-size: cover;
     background-position: center;
 }
