@@ -175,7 +175,7 @@ p{
 
 .a0{
 background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../img/Art/a0.jpg");
+        url("../img/Art/a0.png");
     background-size: cover;
     background-position: center;
 }
@@ -213,7 +213,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     background-position: center;
 }
 .a7{
-    background: url("../img/Art/a7.jpg");
+    background: url("../img/Art/a7.png");
     background-size: cover;
     background-position: center;
 }
